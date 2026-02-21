@@ -1,0 +1,10 @@
+{
+  "selected_features": [
+    "volume",
+    "sphericity",
+    "lcmm",
+    "num_disordered_sites",
+    "valid_supercell_count",
+    "total_site_entropy"
+  ]
+}
