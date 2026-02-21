@@ -1,0 +1,532 @@
+{
+  "timestamp": "2026-02-21 00:43:59",
+  "result": {
+    "success": true,
+    "objective": 1.5007192028985519,
+    "time": 1.4967691898345947,
+    "supercell_used": [
+      5,
+      5,
+      4
+    ],
+    "disorder_types": [
+      "PD"
+    ],
+    "error": null
+  },
+  "sqsgenerator_config_file": "D:\\drzqr\\Documents\\GitHub\\SQS-PD\\data\\output\\single_15143__model_top5_validation\\best_by_actual_objective_sqsgenerator.json",
+  "input_info": {
+    "input_file": "D:\\drzqr\\Documents\\GitHub\\SQS-PD\\data\\input\\15143.cif",
+    "structure_info": {
+      "formula": "Mo2.20+6 Pb2+0.92 S2-7.5",
+      "num_sites": 15,
+      "lattice_params": {
+        "a": 6.551000000000001,
+        "b": 6.551,
+        "c": 6.551
+      }
+    },
+    "disorder_analysis": {
+      "disorder_types": [
+        "PD"
+      ],
+      "num_site_groups": 15,
+      "occupancies": [
+        0.75,
+        0.92
+      ]
+    }
+  },
+  "supercell_calculation": {
+    "success": true,
+    "supercell": [
+      5,
+      5,
+      4
+    ],
+    "size": 100,
+    "rss": 0.0,
+    "max_error": 0.0,
+    "errors": [
+      0.0,
+      0.0
+    ],
+    "nearest_fractions": [
+      0.75,
+      0.92
+    ],
+    "num_candidates": 23,
+    "message": "Perfect match found at size=100",
+    "occupancies_input": [
+      0.75,
+      0.92
+    ],
+    "all_candidates": [
+      {
+        "size": 100,
+        "supercell": [
+          5,
+          5,
+          4
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 200,
+        "supercell": [
+          8,
+          5,
+          5
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 300,
+        "supercell": [
+          10,
+          6,
+          5
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 400,
+        "supercell": [
+          10,
+          8,
+          5
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 500,
+        "supercell": [
+          10,
+          10,
+          5
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 600,
+        "supercell": [
+          10,
+          10,
+          6
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 700,
+        "supercell": [
+          10,
+          10,
+          7
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 800,
+        "supercell": [
+          10,
+          10,
+          8
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 900,
+        "supercell": [
+          10,
+          10,
+          9
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 1000,
+        "supercell": [
+          10,
+          10,
+          10
+        ],
+        "rss": 0.0,
+        "max_error": 0.0,
+        "errors": [
+          0.0,
+          0.0
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.92
+        ]
+      },
+      {
+        "size": 512,
+        "supercell": [
+          8,
+          8,
+          8
+        ],
+        "rss": 6.103515625006245e-09,
+        "max_error": 7.812500000003997e-05,
+        "errors": [
+          0.0,
+          7.812500000003997e-05
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.919921875
+        ]
+      },
+      {
+        "size": 288,
+        "supercell": [
+          8,
+          6,
+          6
+        ],
+        "rss": 1.9290123456765315e-08,
+        "max_error": 0.00013888888888879958,
+        "errors": [
+          0.0,
+          -0.00013888888888879958
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9201388888888888
+        ]
+      },
+      {
+        "size": 576,
+        "supercell": [
+          9,
+          8,
+          8
+        ],
+        "rss": 1.9290123456765315e-08,
+        "max_error": 0.00013888888888879958,
+        "errors": [
+          0.0,
+          -0.00013888888888879958
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9201388888888888
+        ]
+      },
+      {
+        "size": 324,
+        "supercell": [
+          9,
+          6,
+          6
+        ],
+        "rss": 6.096631611038028e-08,
+        "max_error": 0.00024691358024697685,
+        "errors": [
+          0.0,
+          0.00024691358024697685
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9197530864197531
+        ]
+      },
+      {
+        "size": 648,
+        "supercell": [
+          9,
+          9,
+          8
+        ],
+        "rss": 6.096631611038028e-08,
+        "max_error": 0.00024691358024697685,
+        "errors": [
+          0.0,
+          0.00024691358024697685
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9197530864197531
+        ]
+      },
+      {
+        "size": 640,
+        "supercell": [
+          10,
+          8,
+          8
+        ],
+        "rss": 9.765624999996115e-08,
+        "max_error": 0.00031249999999993783,
+        "errors": [
+          0.0,
+          -0.00031249999999993783
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9203125
+        ]
+      },
+      {
+        "size": 112,
+        "supercell": [
+          7,
+          4,
+          4
+        ],
+        "rss": 1.275510204082258e-07,
+        "max_error": 0.0003571428571429447,
+        "errors": [
+          0.0,
+          0.0003571428571429447
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9196428571428571
+        ]
+      },
+      {
+        "size": 224,
+        "supercell": [
+          8,
+          7,
+          4
+        ],
+        "rss": 1.275510204082258e-07,
+        "max_error": 0.0003571428571429447,
+        "errors": [
+          0.0,
+          0.0003571428571429447
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9196428571428571
+        ]
+      },
+      {
+        "size": 336,
+        "supercell": [
+          8,
+          7,
+          6
+        ],
+        "rss": 1.275510204082258e-07,
+        "max_error": 0.0003571428571429447,
+        "errors": [
+          0.0,
+          0.0003571428571429447
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9196428571428571
+        ]
+      },
+      {
+        "size": 448,
+        "supercell": [
+          8,
+          8,
+          7
+        ],
+        "rss": 1.275510204082258e-07,
+        "max_error": 0.0003571428571429447,
+        "errors": [
+          0.0,
+          0.0003571428571429447
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9196428571428571
+        ]
+      },
+      {
+        "size": 560,
+        "supercell": [
+          10,
+          8,
+          7
+        ],
+        "rss": 1.275510204082258e-07,
+        "max_error": 0.0003571428571429447,
+        "errors": [
+          0.0,
+          0.0003571428571429447
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9196428571428571
+        ]
+      },
+      {
+        "size": 540,
+        "supercell": [
+          10,
+          9,
+          6
+        ],
+        "rss": 1.3717421124827338e-07,
+        "max_error": 0.00037037037037035425,
+        "errors": [
+          0.0,
+          -0.00037037037037035425
+        ],
+        "nearest_fractions": [
+          0.75,
+          0.9203703703703704
+        ]
+      },
+      {
+        "size": 729,
+        "supercell": [
+          9,
+          9,
+          9
+        ],
+        "rss": 3.102884421788241e-07,
+        "max_error": 0.00043895747599442814,
+        "errors": [
+          -0.0003429355281207025,
+          -0.00043895747599442814
+        ],
+        "nearest_fractions": [
+          0.7503429355281207,
+          0.9204389574759945
+        ]
+      }
+    ],
+    "rss_range": [
+      0.0,
+      3.102884421788241e-07
+    ]
+  },
+  "log_messages": [
+    {
+      "step": "start",
+      "time": 4.76837158203125e-07,
+      "message": "SQS generation workflow started"
+    },
+    {
+      "step": "prepare_structure",
+      "time": 1.1920928955078125e-06,
+      "message": "Loading and analyzing structure"
+    },
+    {
+      "step": "prepare_structure",
+      "time": 0.0033659934997558594,
+      "message": "Structure analyzed, disorder types: ['PD']"
+    },
+    {
+      "step": "build_config",
+      "time": 0.003368377685546875,
+      "message": "Building sqsgenerator configuration"
+    },
+    {
+      "step": "build_config",
+      "time": 0.003979206085205078,
+      "message": "Configuration built, supercell: (5, 5, 4)"
+    },
+    {
+      "step": "run_optimization",
+      "time": 0.003980398178100586,
+      "message": "Starting SQS optimization"
+    },
+    {
+      "step": "run_optimization",
+      "time": 1.492469310760498,
+      "message": "Optimization succeeded, objective: 1.5007192028985519"
+    },
+    {
+      "step": "post_process",
+      "time": 1.4924767017364502,
+      "message": "Post-processing optimization result"
+    },
+    {
+      "step": "complete",
+      "time": 1.4967691898345947,
+      "message": "SQS generation completed successfully, objective: 1.500719"
+    }
+  ]
+}

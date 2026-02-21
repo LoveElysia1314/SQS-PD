@@ -1,0 +1,6 @@
+{
+  "source_dir": "D:\\drzqr\\Documents\\GitHub\\SQS-PD\\artifacts\\models\\ml_ranker",
+  "production_dir": "D:\\drzqr\\Documents\\GitHub\\SQS-PD\\artifacts\\models\\default_ml_ranker",
+  "model_file": "D:\\drzqr\\Documents\\GitHub\\SQS-PD\\artifacts\\models\\default_ml_ranker\\ranker_model.txt",
+  "inference_config": "D:\\drzqr\\Documents\\GitHub\\SQS-PD\\artifacts\\models\\default_ml_ranker\\ranker_inference_config.json"
+}

@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqs-pd"
+version = "2.0.0"
+description = "Special Quasirandom Structure generator for Partially Disordered Systems"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "drzqr", email = "drzqr@example.com"},
+]
+maintainers = [
+    {name = "drzqr", email = "drzqr@example.com"},
+]
+keywords = ["materials science", "crystallography", "SQS", "disorder", "pymatgen"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "pymatgen",
+    "sqsgenerator",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.urls]
+Homepage = "https://github.com/drzqr/SQS-PD"
+Documentation = "https://github.com/drzqr/SQS-PD/docs/"
+Repository = "https://github.com/drzqr/SQS-PD.git"
+Issues = "https://github.com/drzqr/SQS-PD/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
