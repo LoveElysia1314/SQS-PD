@@ -31,8 +31,10 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Physics",
 ]
 dependencies = [
+    "lightgbm",
     "numpy",
     "pymatgen",
+    "scikit-learn",
     "sqsgenerator",
 ]
 
