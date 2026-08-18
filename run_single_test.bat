@@ -1,4 +1,17 @@
 @echo off
+chcp 65001 >nul
+setlocal
+set "PYTHONUTF8=1"
+cd /d "%~dp0"
+
+where uv.exe >nul 2>nul
+if errorlevel 1 (
+    echo ERROR: uv was not found in PATH.
+    echo Install it with: winget install --id astral-sh.uv --exact
+    pause
+    exit /b 1
+)
+
 REM 运行单个测试文件
 if "%1"=="" (
     echo 用法: run_single_test.bat ^<test_number^> [mode]
@@ -22,10 +35,10 @@ set MODE=%2
 
 if "%MODE%"=="learn" (
     set LEARNING_MODE=1
-    python tests\test_%TEST_NUM%*.py
+    uv run python tests\test_%TEST_NUM%*.py
 ) else (
     set LEARNING_MODE=0
-    pytest tests\test_%TEST_NUM%*.py -v -s
+    uv run pytest tests\test_%TEST_NUM%*.py -v -s
 )
 
 pause
